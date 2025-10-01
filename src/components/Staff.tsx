@@ -1,24 +1,24 @@
 import { useState, useEffect } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import staff1 from "@/assets/SAUJANYA PATANKAR.jpg";
-import staff2 from "@/assets/staff.png";
-import staff3 from "@/assets/staff2.png";
-import staff4 from "@/assets/icon.png";
-import staff5 from "@/assets/icon.png";
-import staff6 from "@/assets/icon.png";
+import staff2 from "@/assets/SIDDHI DHURI.png";
+import staff3 from "@/assets/SHWETA PEDNEKAR.png";
+import staff4 from "@/assets/SIDDHI MALVANKAR.png";
+import staff5 from "@/assets/UMA DIGHE.png";
+import staff6 from "@/assets/MRUNAL HADKAR.png";
 import staff7 from "@/assets/icon.png";
-import staff8 from "@/assets/icon.png";
+
 
 
 const staffMembers = [
-  { id: 1, name: "Dr. Priya Sharma", position: "Principal", image: staff1 },
-  { id: 2, name: "Ms. Anjali Patel", position: "Senior Teacher", image: staff2 },
-  { id: 3, name: "Mr. Rajesh Kumar", position: "Mathematics Teacher", image: staff3 },
-  { id: 4, name: "Ms. Sunita Joshi", position: "English Teacher", image: staff4 },
-  { id: 5, name: "Mrs. Meera Gupta", position: "Science Teacher", image: staff5 },
-  { id: 6, name: "Mr. Amit Singh", position: "Physical Education", image: staff6 },
-  { id: 7, name: "Mrs. Kalpana Mehta", position: "Art & Craft Teacher", image: staff7 },
-  { id: 8, name: "Ms. Pooja Rao", position: "Music Teacher", image: staff8 },
+  { id: 1, name: "SAUJANYA PATANKAR", position: "Assistant Teacher", image: staff1 },
+  { id: 2, name: "SIDDHI DHURI", position: "Assistant Teacher", image: staff2 },
+  { id: 3, name: "SHWETA PEDNEKAR", position: "Assistant Teacher", image: staff3 },
+  { id: 4, name: "SIDDHI MALVANKAR", position: "Assistant Teacher", image: staff4 },
+  { id: 5, name: "UMA DIGHE", position: "Assistant Teacher", image: staff5 },
+  { id: 6, name: "MRUNAL HADKAR", position: "Assistant Teacher", image: staff6 },
+  { id: 7, name: "PRIYA KELUSKAR", position: "Assistant Teacher", image: staff7 },
+
 ];
 
 const Staff = () => {
