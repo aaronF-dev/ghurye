@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
-import galleryClassroom from "@/assets/g1.png";
-import gallerySports from "@/assets/g2.png";
-import galleryArt from "@/assets/g3.png";
-import galleryScience from "@/assets/g4.png";
-import galleryLibrary from "@/assets/g5.png";
-import galleryFunction from "@/assets/g7.png";
-import galleryPlayground from "@/assets/g6.png";
-import galleryMusic from "@/assets/g8.png";
+import galleryClassroom from "@/assets/g1.jpg";
+import gallerySports from "@/assets/g2.jpg";
+import galleryArt from "@/assets/g3.jpg";
+import galleryScience from "@/assets/g4.jpg";
+import galleryLibrary from "@/assets/g5.jpg";
+import galleryFunction from "@/assets/g7.jpg";
+import galleryPlayground from "@/assets/g6.jpg";
+import galleryMusic from "@/assets/g8.jpg";
 
 const Gallery = () => {
   const { t } = useLanguage();
